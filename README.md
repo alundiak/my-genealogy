@@ -2,7 +2,9 @@
 
 Genealogy related projects sandbox
 
-Migrated from [gen-&-gen]() project
+Migrated from [gen-&-gen](https://github.com/alundiak/gen-and-gen) project.
+
+Is related to [My DNA](https://github.com/alundiak/my-dna) project.
 
 
 Decided to use Vite + React + SWC setup. Bootstrapped via:
