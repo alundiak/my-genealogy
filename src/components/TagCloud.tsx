@@ -1,45 +1,55 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import cloud from "d3-cloud";
+import { NickNamesDataForTagCloud } from "../common/models";
 
 interface TagCloudProps {
-  nicknames: { name: string; count: number }[];
+  cloudData: NickNamesDataForTagCloud[];
 }
 
-const TagCloud: React.FC<TagCloudProps> = ({ nicknames }) => {
+const TagCloud: React.FC<TagCloudProps> = ({ cloudData }) => {
   const cloudRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
     if (!cloudRef.current) return;
 
-    // Set dimensions for the cloud
     const width = 500;
     const height = 500;
 
-    // Create the SVG canvas
     const svg = d3
       .select(cloudRef.current)
       .attr("width", width)
       .attr("height", height);
 
-    // Scale font size based on counts
+    const domainData = [
+      d3.min(cloudData, (d) => d.count) || 1,
+      d3.max(cloudData, (d) => d.count) || 100
+    ];
+
     const fontSizeScale = d3
       .scaleLinear()
-      .domain([d3.min(nicknames, (d) => d.count) || 1, d3.max(nicknames, (d) => d.count) || 100])
-      .range([10, 50]); // Font sizes between 10px and 50px
+      .domain(domainData)
+      .range([10, 90]);
+
+    const wordsData = cloudData.map((d) => {
+      const size = fontSizeScale(d.count);
+      console.log(`Count: ${d.count}, Size: ${size}`);
+      return {
+        text: d.name,
+        size: size || 10,
+      };
+    });
 
     // Create the D3-cloud layout
     const layout = cloud()
       .size([width, height])
-      .words(
-        nicknames.map((d) => ({
-          text: d.name,
-          size: fontSizeScale(d.count),
-        }))
-      )
+      .words(wordsData)
       .padding(5)
       .rotate(0) // No rotation for horizontal alignment
-      .fontSize((d) => d.size) // Set font size
+      .fontSize((d) => {
+        // console.log(d.size);
+        return d.size;
+      }) // Set font size
       .on("end", draw); // Call the draw function when layout finishes
 
     layout.start();
@@ -63,7 +73,7 @@ const TagCloud: React.FC<TagCloudProps> = ({ nicknames }) => {
         .attr("y", (d: any) => d.y) // Use the calculated y position (still random)
         .text((d: any) => d.text);
     }
-  }, [nicknames]);
+  }, [cloudData]);
 
   return <svg ref={cloudRef}></svg>;
 };

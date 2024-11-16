@@ -1,4 +1,10 @@
 # My Genealogy
+gen-tags?
+gen-clouds?
+genealogy-clouds?
+genealogy-tags?
+gen-data?
+gen-domain?
 
 Genealogy related projects sandbox
 
