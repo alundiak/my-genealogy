@@ -18,6 +18,20 @@ Is related to [My DNA](https://github.com/alundiak/my-dna) project.
 
 More TBD
 
+## FamilyTree Sunburst fan chart
+aka Lineage small sunburst
+
+https://github.com/bkrem/react-d3-tree
+https://bkrem.github.io/react-d3-tree/
+CAN BE used for SNP-like tree
+
+
+Very similar look and data of Sunburst as before
+https://github.com/plouc/nivo
+https://nivo.rocks/sunburst/
+https://nivo.rocks/storybook/?path=/docs/sunburst--docs
+
+
 ## Locations tag-cloud
 
 TBD

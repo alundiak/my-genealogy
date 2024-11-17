@@ -16,3 +16,7 @@ export type VulgoDataExtended = VulgoDataRaw & {
   count?: number;
 }
 
+export interface TagCloudProps {
+  // cloudData: VulgoDataWithCount[];
+  cloudData: VulgoDataExtended[];
+}

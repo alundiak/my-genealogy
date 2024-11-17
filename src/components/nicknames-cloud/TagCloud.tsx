@@ -1,12 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import cloud from "d3-cloud";
-import { VulgoDataWithCount, VulgoDataExtended } from "./models";
+import { TagCloudProps } from "./models";
 
-interface TagCloudProps {
-  // cloudData: VulgoDataWithCount[];
-  cloudData: VulgoDataExtended[];
-}
 
 const TagCloud: React.FC<TagCloudProps> = ({ cloudData }) => {
   const cloudRef = useRef<SVGSVGElement>(null);
