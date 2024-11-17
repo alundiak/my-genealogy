@@ -2,7 +2,6 @@ import { VulgoDataWithCount, VulgoDataRaw, VulgoDataExtended } from './models';
 import vulgoDataBasic from './data/vulgoDataBasic.json';
 import vulgoDataExtended from './data/vulgoDataExtended.json';
 
-
 // Value should be high enough to contains all strings on page visually representative OK
 const maxNumberForCloudSize = 25;
 
