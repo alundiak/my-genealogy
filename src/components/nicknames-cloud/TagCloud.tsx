@@ -1,10 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import cloud from "d3-cloud";
-import { NickNamesDataForTagCloud } from "../common/models";
+import { VulgoDataWithCount, VulgoDataExtended } from "./models";
 
 interface TagCloudProps {
-  cloudData: NickNamesDataForTagCloud[];
+  // cloudData: VulgoDataWithCount[];
+  cloudData: VulgoDataExtended[];
 }
 
 const TagCloud: React.FC<TagCloudProps> = ({ cloudData }) => {
@@ -35,7 +36,7 @@ const TagCloud: React.FC<TagCloudProps> = ({ cloudData }) => {
       const size = fontSizeScale(d.count);
       console.log(`Count: ${d.count}, Size: ${size}`);
       return {
-        text: d.name,
+        text: d.vulgo,
         size: size || 10,
       };
     });

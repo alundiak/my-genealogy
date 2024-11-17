@@ -1,0 +1,60 @@
+{
+  "main": [
+    {
+      "vulgo": "ґЕникові",
+      "surnames": "Іванків",
+      "reason": "Genyk",
+      "reasonType": "lastName"
+    },
+    {
+      "vulgo": "божєкОві",
+      "surnames": "Попович",
+      "reason": "Bożak",
+      "reasonType": "lastName"
+    },
+    {
+      "vulgo": "єґунюкОві",
+      "surnames": "Димидюк, Демидюк",
+      "reason": "Agnes (Єґнєшка)",
+      "reasonType": "firstName"
+    },
+    {
+      "vulgo": "романИха",
+      "surnames": "Лундяк, Іванків",
+      "reason": "Роман",
+      "reasonType": "firstName"
+    },
+    {
+      "vulgo": "мАйориха/мАйорка",
+      "surnames": "Лундяк, Миклин",
+      "reason": "майор",
+      "reasonType": "occupation"
+    },
+    {
+      "vulgo": "дідОриха",
+      "surnames": "Лундяк, Турів",
+      "reason": "дідо?",
+      "reasonType": "unknown"
+    }
+  ],
+  "other": [
+    {
+      "vulgo": "Никудимові"
+    },
+    {
+      "vulgo": "Тацині"
+    },
+    {
+      "vulgo": "Фесюкові"
+    },
+    {
+      "vulgo": "Танасеві"
+    },
+    {
+      "vulgo": "Стасишині"
+    },
+    {
+      "vulgo": "Фрізюкові"
+    }
+  ]
+}
