@@ -1,0 +1,421 @@
+{
+  "name": "nivo",
+  "color": "hsl(249, 70%, 50%)",
+  "children": [
+    {
+      "name": "viz",
+      "color": "hsl(85, 70%, 50%)",
+      "children": [
+        {
+          "name": "stack",
+          "color": "hsl(269, 70%, 50%)",
+          "children": [
+            {
+              "name": "cchart",
+              "color": "hsl(80, 70%, 50%)",
+              "loc": 156292
+            },
+            {
+              "name": "xAxis",
+              "color": "hsl(38, 70%, 50%)",
+              "loc": 38578
+            },
+            {
+              "name": "yAxis",
+              "color": "hsl(216, 70%, 50%)",
+              "loc": 91368
+            },
+            {
+              "name": "layers",
+              "color": "hsl(236, 70%, 50%)",
+              "loc": 138056
+            }
+          ]
+        },
+        {
+          "name": "ppie",
+          "color": "hsl(120, 70%, 50%)",
+          "children": [
+            {
+              "name": "chart",
+              "color": "hsl(27, 70%, 50%)",
+              "children": [
+                {
+                  "name": "pie",
+                  "color": "hsl(202, 70%, 50%)",
+                  "children": [
+                    {
+                      "name": "outline",
+                      "color": "hsl(19, 70%, 50%)",
+                      "loc": 61625
+                    },
+                    {
+                      "name": "slices",
+                      "color": "hsl(11, 70%, 50%)",
+                      "loc": 131004
+                    },
+                    {
+                      "name": "bbox",
+                      "color": "hsl(313, 70%, 50%)",
+                      "loc": 132547
+                    }
+                  ]
+                },
+                {
+                  "name": "donut",
+                  "color": "hsl(41, 70%, 50%)",
+                  "loc": 170262
+                },
+                {
+                  "name": "gauge",
+                  "color": "hsl(132, 70%, 50%)",
+                  "loc": 105710
+                }
+              ]
+            },
+            {
+              "name": "legends",
+              "color": "hsl(187, 70%, 50%)",
+              "loc": 9444
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "colors",
+      "color": "hsl(304, 70%, 50%)",
+      "children": [
+        {
+          "name": "rgb",
+          "color": "hsl(350, 70%, 50%)",
+          "loc": 106010
+        },
+        {
+          "name": "hsl",
+          "color": "hsl(260, 70%, 50%)",
+          "loc": 66527
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "color": "hsl(162, 70%, 50%)",
+      "children": [
+        {
+          "name": "randomize",
+          "color": "hsl(248, 70%, 50%)",
+          "loc": 40772
+        },
+        {
+          "name": "resetClock",
+          "color": "hsl(201, 70%, 50%)",
+          "loc": 80569
+        },
+        {
+          "name": "noop",
+          "color": "hsl(232, 70%, 50%)",
+          "loc": 67508
+        },
+        {
+          "name": "tick",
+          "color": "hsl(236, 70%, 50%)",
+          "loc": 6487
+        },
+        {
+          "name": "forceGC",
+          "color": "hsl(55, 70%, 50%)",
+          "loc": 47332
+        },
+        {
+          "name": "stackTrace",
+          "color": "hsl(52, 70%, 50%)",
+          "loc": 126750
+        },
+        {
+          "name": "dbg",
+          "color": "hsl(122, 70%, 50%)",
+          "loc": 56634
+        }
+      ]
+    },
+    {
+      "name": "generators",
+      "color": "hsl(44, 70%, 50%)",
+      "children": [
+        {
+          "name": "address",
+          "color": "hsl(190, 70%, 50%)",
+          "loc": 107155
+        },
+        {
+          "name": "city",
+          "color": "hsl(156, 70%, 50%)",
+          "loc": 19230
+        },
+        {
+          "name": "animal",
+          "color": "hsl(65, 70%, 50%)",
+          "loc": 28393
+        },
+        {
+          "name": "movie",
+          "color": "hsl(123, 70%, 50%)",
+          "loc": 7337
+        },
+        {
+          "name": "user",
+          "color": "hsl(98, 70%, 50%)",
+          "loc": 40409
+        }
+      ]
+    },
+    {
+      "name": "set",
+      "color": "hsl(231, 70%, 50%)",
+      "children": [
+        {
+          "name": "clone",
+          "color": "hsl(38, 70%, 50%)",
+          "loc": 131558
+        },
+        {
+          "name": "intersect",
+          "color": "hsl(350, 70%, 50%)",
+          "loc": 91111
+        },
+        {
+          "name": "merge",
+          "color": "hsl(340, 70%, 50%)",
+          "loc": 77259
+        },
+        {
+          "name": "reverse",
+          "color": "hsl(147, 70%, 50%)",
+          "loc": 25286
+        },
+        {
+          "name": "toArray",
+          "color": "hsl(17, 70%, 50%)",
+          "loc": 125680
+        },
+        {
+          "name": "toObject",
+          "color": "hsl(220, 70%, 50%)",
+          "loc": 32889
+        },
+        {
+          "name": "fromCSV",
+          "color": "hsl(98, 70%, 50%)",
+          "loc": 84331
+        },
+        {
+          "name": "slice",
+          "color": "hsl(118, 70%, 50%)",
+          "loc": 138001
+        },
+        {
+          "name": "append",
+          "color": "hsl(33, 70%, 50%)",
+          "loc": 187513
+        },
+        {
+          "name": "prepend",
+          "color": "hsl(196, 70%, 50%)",
+          "loc": 15467
+        },
+        {
+          "name": "shuffle",
+          "color": "hsl(166, 70%, 50%)",
+          "loc": 75149
+        },
+        {
+          "name": "pick",
+          "color": "hsl(292, 70%, 50%)",
+          "loc": 99014
+        },
+        {
+          "name": "plouc",
+          "color": "hsl(342, 70%, 50%)",
+          "loc": 35942
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "color": "hsl(193, 70%, 50%)",
+      "children": [
+        {
+          "name": "trim",
+          "color": "hsl(206, 70%, 50%)",
+          "loc": 170969
+        },
+        {
+          "name": "slugify",
+          "color": "hsl(347, 70%, 50%)",
+          "loc": 159766
+        },
+        {
+          "name": "snakeCase",
+          "color": "hsl(258, 70%, 50%)",
+          "loc": 170656
+        },
+        {
+          "name": "camelCase",
+          "color": "hsl(45, 70%, 50%)",
+          "loc": 13235
+        },
+        {
+          "name": "repeat",
+          "color": "hsl(355, 70%, 50%)",
+          "loc": 129170
+        },
+        {
+          "name": "padLeft",
+          "color": "hsl(140, 70%, 50%)",
+          "loc": 24991
+        },
+        {
+          "name": "padRight",
+          "color": "hsl(175, 70%, 50%)",
+          "loc": 179235
+        },
+        {
+          "name": "sanitize",
+          "color": "hsl(242, 70%, 50%)",
+          "loc": 56279
+        },
+        {
+          "name": "ploucify",
+          "color": "hsl(84, 70%, 50%)",
+          "loc": 193539
+        }
+      ]
+    },
+    {
+      "name": "misc",
+      "color": "hsl(169, 70%, 50%)",
+      "children": [
+        {
+          "name": "greetings",
+          "color": "hsl(201, 70%, 50%)",
+          "children": [
+            {
+              "name": "hey",
+              "color": "hsl(127, 70%, 50%)",
+              "loc": 61858
+            },
+            {
+              "name": "HOWDY",
+              "color": "hsl(206, 70%, 50%)",
+              "loc": 66746
+            },
+            {
+              "name": "aloha",
+              "color": "hsl(281, 70%, 50%)",
+              "loc": 118970
+            },
+            {
+              "name": "AHOY",
+              "color": "hsl(305, 70%, 50%)",
+              "loc": 56530
+            }
+          ]
+        },
+        {
+          "name": "other",
+          "color": "hsl(139, 70%, 50%)",
+          "loc": 4564
+        },
+        {
+          "name": "path",
+          "color": "hsl(1, 70%, 50%)",
+          "children": [
+            {
+              "name": "pathA",
+              "color": "hsl(37, 70%, 50%)",
+              "loc": 149117
+            },
+            {
+              "name": "pathB",
+              "color": "hsl(94, 70%, 50%)",
+              "children": [
+                {
+                  "name": "pathB1",
+                  "color": "hsl(193, 70%, 50%)",
+                  "loc": 120612
+                },
+                {
+                  "name": "pathB2",
+                  "color": "hsl(313, 70%, 50%)",
+                  "loc": 160468
+                },
+                {
+                  "name": "pathB3",
+                  "color": "hsl(196, 70%, 50%)",
+                  "loc": 150728
+                },
+                {
+                  "name": "pathB4",
+                  "color": "hsl(330, 70%, 50%)",
+                  "loc": 25203
+                }
+              ]
+            },
+            {
+              "name": "pathC",
+              "color": "hsl(13, 70%, 50%)",
+              "children": [
+                {
+                  "name": "pathC1",
+                  "color": "hsl(226, 70%, 50%)",
+                  "loc": 10443
+                },
+                {
+                  "name": "pathC2",
+                  "color": "hsl(88, 70%, 50%)",
+                  "loc": 43658
+                },
+                {
+                  "name": "pathC3",
+                  "color": "hsl(97, 70%, 50%)",
+                  "loc": 128886
+                },
+                {
+                  "name": "pathC4",
+                  "color": "hsl(330, 70%, 50%)",
+                  "loc": 163365
+                },
+                {
+                  "name": "pathC5",
+                  "color": "hsl(7, 70%, 50%)",
+                  "loc": 161413
+                },
+                {
+                  "name": "pathC6",
+                  "color": "hsl(346, 70%, 50%)",
+                  "loc": 144370
+                },
+                {
+                  "name": "pathC7",
+                  "color": "hsl(11, 70%, 50%)",
+                  "loc": 42000
+                },
+                {
+                  "name": "pathC8",
+                  "color": "hsl(108, 70%, 50%)",
+                  "loc": 86684
+                },
+                {
+                  "name": "pathC9",
+                  "color": "hsl(35, 70%, 50%)",
+                  "loc": 190196
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

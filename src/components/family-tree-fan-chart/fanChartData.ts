@@ -1,4 +1,4 @@
-export const familyData = [
+export const fanChartData = [
   // Generation 1: Main person
   [{ name: "John Doe", birth: "1980" }],
 
