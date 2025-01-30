@@ -61,3 +61,5 @@ Used Vite + React + SWC setup. Bootstrapped via:
 ```sh
 npm create vite@latest new-gen-gen -- --template react-swc-ts
 ```
+
+https://vite.dev/guide/
